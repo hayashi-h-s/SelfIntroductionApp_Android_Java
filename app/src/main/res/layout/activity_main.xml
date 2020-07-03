@@ -6,4 +6,61 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="#36E6D6"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="I am an Android Developer !"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/click_Button"
+        android:layout_width="256dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:background="#1F5860"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Click me !"
+        android:textColor="#FBF9F9"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:hint="名前を入力してください"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:hint="電話番号を入力してください"
+        android:inputType="phone" />
+
 </RelativeLayout>
