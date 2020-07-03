@@ -25,7 +25,10 @@ public class MainActivity extends AppCompatActivity {
                 EditText editName = findViewById(R.id.edtName);
                 EditText edtPhone = findViewById(R.id.edtPhone);
 //                Log.i("クリックテスト", edtPhone.getText().toString() );
-                Toast.makeText(MainActivity.this, "名前：" + editName.getText().toString() + "\n" + "電話番号：" + edtPhone.getText().toString(), Toast.LENGTH_LONG).show();
+                Toast.makeText(
+                    MainActivity.this,
+                    "名前：" + editName.getText().toString() + "\n" + "電話番号：" + edtPhone.getText().toString(),
+                     Toast.LENGTH_LONG).show();
             }
         });
     }

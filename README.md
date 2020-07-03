@@ -1,3 +1,7 @@
-# SelfIntroductionApp_Android_Java
+# 自己紹介アプリ
 
-# add
+*  名前と電話番号を入力して、「CLICK ME !」
+   を押すとToastで下に名前と電話番号が表示される。(下記画像参照)
+
+#  プレビュー画像
+
