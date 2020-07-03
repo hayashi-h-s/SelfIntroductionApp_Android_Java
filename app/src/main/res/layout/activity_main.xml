@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
-        android:layout_height="198dp"
+        android:layout_height="160dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -27,20 +27,15 @@
         android:textSize="32sp"
         android:textStyle="bold|italic" />
 
-    <Button
-        android:id="@+id/click_Button"
-        android:layout_width="256dp"
-        android:layout_height="79dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="530dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginRight="100dp"
-        android:background="#1F5860"
-        android:fontFamily="sans-serif-smallcaps"
-        android:text="Click me !"
-        android:textColor="#FBF9F9"
-        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="82dp"
+        android:layout_height="67dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
 
     <EditText
         android:id="@+id/edtName"
@@ -48,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="false"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="240dp"
         android:ems="10"
         android:hint="名前を入力してください"
         android:inputType="textPersonName" />
@@ -58,9 +53,32 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="290dp"
         android:ems="10"
         android:hint="電話番号を入力してください"
         android:inputType="phone" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="345dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/google1" />
+
+    <Button
+        android:id="@+id/click_Button"
+        android:layout_width="256dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="555dp"
+        android:layout_marginEnd="100dp"
+        android:background="#1F5860"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Click me !"
+        android:textColor="#FBF9F9"
+        android:textSize="36sp" />
+
+
 
 </RelativeLayout>
